@@ -1,5 +1,5 @@
 {% set name = "aleph-alpha-client" %}
-{% set version = "3.1.5" %}
+{% set version = "3.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aleph-alpha-client-{{ version }}.tar.gz
-  sha256: 188e9c70e58edb6f31d77c58d7963ba1427a42be68f8f40beff6ff76d407c10a
+  sha256: 91e3ee6e127f81dfe59a91a29734fbb7bbf9eb233ab3bb52c0175cb20224314f
 
 build:
   noarch: python
